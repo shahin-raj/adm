@@ -47,11 +47,11 @@ h2 {
 	font-weight: bold;
 	padding-left: 0;
 	text-decoration: none;
-	color: powderblue;
+	color: black;
 }
 
 .nav-brand:hover {
-	color: black;
+	color: powderblue;
 }
 
 .navbar {
@@ -75,6 +75,16 @@ h2 {
 	padding-top: 80px;
 }
 
+@media (max-width: 1050px) {
+	.title-img {
+		position: static;
+		padding-top: 0;
+	}
+
+	.container {
+		padding-bottom: 0;
+	}
+}
 
 /*Features*/
 
@@ -148,4 +158,42 @@ h3 {
 .pricing-clm {
 	padding: 3%;
 	/*text-align: center;*/
+}
+
+.hide-box {
+	visibility: hidden;
+}
+
+
+/*Call to Action*/
+
+#cta {
+	background-color: #ef8172;
+	padding: 4% 0%;
+	text-align: center;
+	font-family: montserrat;
+}
+
+.download-button {
+	padding: 0 3%;
+}
+
+.cta-button {
+	text-decoration: none;
+	color: white;
+}
+
+.cta-button:hover {
+	color: black;
+}
+
+#footer {
+	background-color: powderblue;
+	margin: 0;
+	text-align: right;
+	padding: 1% 0%;
+}
+
+.footer-content {
+	padding-right: 3%;
 }
